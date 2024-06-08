@@ -41,6 +41,7 @@ main {
     justify-content: flex-end;
     background: rgb(16, 16, 16, 0.7);
     margin-bottom: 10px;
+    font-size: 12px;
     
     
 }
@@ -116,6 +117,11 @@ p .span-signup {
     margin-bottom: 7px;
     font-size: 14px;
 }
+
+.user-info:focus,
+.user-info_2:focus {
+    border: 1px solid rgb(63, 63, 231);
+} 
 
 .user-info input[type="text"],
 .user-info input[type="email"],
@@ -193,6 +199,10 @@ button {
     width: 100%;
     margin: 30px 40px;
     color: white;
+}
+
+.para p {
+    font-size: 14px;
 }
 
 

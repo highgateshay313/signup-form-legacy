@@ -127,6 +127,11 @@ p .span-signup {
     font-size: 14px;
 }
 
+.user-info input[id="password"]:invalid {
+    border: 1px solid rgb(187, 54, 54);
+    color: rgb(171, 78, 78);
+}
+
 .user-info_2 {
     margin-bottom: 10px;
    display: flex;

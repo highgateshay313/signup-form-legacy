@@ -1,0 +1,281 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(93, 37, 94);
+}
+
+main {
+    background-color: #1a1818;
+    width: 60%;
+    height: 800px;
+    margin: 50px auto;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.form-img {
+    width: 50%;
+    height: 100%;
+    background: url(images/long-exposure-1745331_1280.jpg);
+    background-size: cover;
+}
+
+.img-para {
+    width: 100%;
+    color: white;
+    display: block;
+    margin-top: 430px;
+    text-align: center;
+    background: rgb(16, 16, 16, 0.7)
+}
+
+ .logo {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(31, 30, 29, 0.8);
+    background: url(images/laser-show-589727_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 60% 0;
+    color: #FFFF;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS',  Arial, sans-serif;
+    font-size: 2em;
+}
+
+.form-discription {
+    color: #FFFF;
+    margin: 90px 30px 10px;
+}
+
+.form-text {
+    width: 70%;
+    line-height: 1.5;
+}
+
+.form-discription span {
+    display: block;
+}
+
+p .span-signup {
+    padding: 20px 0;
+    font-style: italic;
+}
+
+.formit {
+   width: 100%;
+   color: #dbd6d6;
+   background-color: rgb(49, 51, 53);
+   height: 350px;
+}
+
+.formit h2 {
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 50px;
+    padding: 10px 0 10px 0;
+}
+
+.form-all {
+    width: 100%;
+    
+    
+    display: flex;
+}
+
+
+.user-info {
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+
+.user-info label {
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+.user-info input[type="text"],
+.user-info input[type="email"],
+.user-info input[type="password"] {
+    width: 100%;
+    border: 1px solid #dbd6d6;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.user-info_2 {
+    margin-bottom: 10px;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   margin-right: 20px;
+}
+
+.user-info_2 label {
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+.user-info_2 input[type="text"], 
+.user-info_2 input[type="tel"],
+.user-info_2 input[id="confirm"] {
+    width: 100%;
+    border: 1px solid #dbd6d6;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.user-info_2 input[id="confirm"]::placeholder {
+    color: rgb(212, 211, 211);
+}
+
+.form-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.formit_2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.submit-btn {
+    width: 100%;
+    margin: 30px 40px;
+}
+
+button {
+    width: 150px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(93, 37, 94);
+    border: none;
+    border-radius: 5px;
+}
+
+.para {
+    width: 100%;
+    margin: 30px 40px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

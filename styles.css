@@ -23,6 +23,8 @@ main {
 }
 
 .form-img {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     height: 100%;
     background: url(images/long-exposure-1745331_1280.jpg);
@@ -30,12 +32,17 @@ main {
 }
 
 .img-para {
-    width: 100%;
-    color: white;
-    display: block;
-    margin-top: 430px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background: rgb(16, 16, 16, 0.7)
+    width: 100%;
+    height: 50%;
+    color: white;
+    justify-content: flex-end;
+    background: rgb(16, 16, 16, 0.7);
+    margin-bottom: 10px;
+    
+    
 }
 
  .logo {
